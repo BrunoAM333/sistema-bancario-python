@@ -1,24 +1,5 @@
 # Sistema Bancário em Python 🏦
 
-<<<<<<< HEAD
-Este projeto foi desenvolvido como parte do desafio da DIO para criação de um sistema bancário simples.
-
-## Funcionalidades:
-- Depósito de valores positivos
-- Saque (limite de R$500 por operação, máximo de 3 saques por dia)
-- Visualização de extrato (movimentações e saldo)
-
-## Tecnologias utilizadas:
-- Python 3.10+
-
-## Como executar:
-1. Clone o repositório
-2. Execute o arquivo `sistema_bancario.py`
-
----
-
-Desenvolvido por **BrunoAM333** 🚀
-=======
 Este é um projeto de sistema bancário desenvolvido em Python como parte de um desafio da DIO. A versão atual foi expandida com suporte a múltiplos usuários e contas.
 
 ## 🔧 Funcionalidades
@@ -52,4 +33,3 @@ Este é um projeto de sistema bancário desenvolvido em Python como parte de um 
     ```
 
 ## 👨‍💻 Desenvolvido por [BrunoAM333](https://github.com/BrunoAM333) 🚀
->>>>>>> 8b30a6c (feat: adiciona suporte a múltiplos usuários e contas)
