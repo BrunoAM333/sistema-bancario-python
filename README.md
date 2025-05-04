@@ -1,5 +1,6 @@
 # Sistema Bancário em Python 🏦
 
+Este é um projeto de sistema bancário desenvolvido em Python como parte de um desafio da DIO. A versão atual foi expandida com suporte a múltiplos usuários e contas.
 Este projeto foi desenvolvido como parte do desafio da DIO para criação de um sistema bancário simples.
 
 ## 🔧 Funcionalidades
@@ -15,10 +16,21 @@ Este projeto foi desenvolvido como parte do desafio da DIO para criação de um 
 
 - Python 3.10+
 
-## Como executar:
-1. Clone o repositório
-2. Execute o arquivo `sistema_bancario.py`
+## ▶️ Como executar
 
----
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
 
-Desenvolvido por **BrunoAM333** 🚀
+2. Acesse a pasta do projeto:
+    ```bash
+    cd seu-repositorio
+    ```
+
+3. Execute o sistema:
+    ```bash
+    python sistema_bancario.py
+    ```
+
+## 👨‍💻 Desenvolvido por [BrunoAM333](https://github.com/BrunoAM333) 🚀
