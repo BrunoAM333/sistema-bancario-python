@@ -1,36 +1,44 @@
-# Sistema Bancário em Python 🏦
+# 🏦 Sistema Bancário em Python
 
-Este é um projeto de sistema bancário desenvolvido em Python como parte de um desafio da DIO. A versão atual foi expandida com suporte a múltiplos usuários e contas.
-Este projeto foi desenvolvido como parte do desafio da DIO para criação de um sistema bancário simples.
+Este projeto é uma simulação de um sistema bancário simples, desenvolvido em Python. Inicialmente feito de forma procedural, ele foi refatorado para utilizar **Programação Orientada a Objetos (POO)**, tornando o código mais organizado, reutilizável e de fácil manutenção.
 
-## 🔧 Funcionalidades
+---
 
-- ✅ Depósito de valores positivos em contas existentes
-- ✅ Saque (limite de R$500 por operação, até 3 saques por dia por conta)
-- ✅ Visualização de extrato bancário
-- ✅ Cadastro de usuários (com CPF, nome e endereço)
-- ✅ Criação de contas correntes associadas a usuários
+## 📌 Funcionalidades
+
+- ✅ Cadastro de usuários com CPF único
+- ✅ Criação de contas correntes vinculadas aos usuários
+- ✅ Realização de depósitos e saques
+- ✅ Geração de extrato bancário
+- ✅ Controle de limite de valor por saque e número máximo de saques
 - ✅ Listagem de contas cadastradas
 
-## 💻 Tecnologias utilizadas
+---
 
-- Python 3.10+
+## 📁 Arquivos do Projeto
 
-## ▶️ Como executar
+| Arquivo                  | Descrição                                 |
+|--------------------------|-------------------------------------------|
+| `sistema_bancario.py`    | Código principal do sistema bancário (POO) |
+| `README.md`              | Documentação do projeto                   |
 
-1. Clone este repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    ```
+---
 
-2. Acesse a pasta do projeto:
-    ```bash
-    cd seu-repositorio
-    ```
+## 🧠 Estrutura Orientada a Objetos
 
-3. Execute o sistema:
-    ```bash
-    python sistema_bancario.py
-    ```
+O código é organizado em classes que representam as entidades principais:
 
-## 👨‍💻 Desenvolvido por [BrunoAM333](https://github.com/BrunoAM333) 🚀
+- `Cliente`: armazena dados pessoais e contas bancárias do usuário.
+- `Conta`: representa a conta bancária com saldo, extrato, limite etc.
+- `Banco`: responsável por gerenciar os clientes, contas e operações.
+
+---
+
+## 🚀 Como Executar
+
+1. Instale o Python 3 se ainda não tiver.
+2. Clone este repositório:
+
+```bash
+git clone https://github.com/BrunoAM333/sistema-bancario-python.git
+cd sistema-bancario-python
